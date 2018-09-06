@@ -6,6 +6,8 @@ USER root
 
 RUN apk --no-cache add shadow
 RUN usermod -aG docker jenkins
+RUN usermod -aG root jenkins
+CMD chmod 777 /var/run/docker.sock
 
 
 USER jenkins
