@@ -4,7 +4,7 @@ ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
 
 USER root
 
-RUN apk --no-cache add shadow sudo
+RUN apk update && apk --no-cache add shadow sudo sshpass
 RUN usermod -aG docker jenkins
 RUN usermod -aG root jenkins
 
