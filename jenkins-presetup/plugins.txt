@@ -107,3 +107,4 @@ favorite
 blueocean-bitbucket-pipeline
 mapdb-api
 sonar
+embeddable-build-status
