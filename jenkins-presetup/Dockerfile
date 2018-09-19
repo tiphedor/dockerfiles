@@ -6,7 +6,7 @@ USER root
 
 RUN apk update && apk --no-cache add shadow sudo sshpass maven
 RUN apk add npm nodejs-current  --repository http://dl-3.alpinelinux.org/alpine/edge/testing/
-RUN npm install -g npm
+RUN npm install -g npm yarn
 RUN usermod -aG docker jenkins
 RUN usermod -aG root jenkins
 
