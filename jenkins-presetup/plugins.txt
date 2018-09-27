@@ -7,6 +7,7 @@ jira
 sse-gateway
 apache-httpcomponents-client-4-api
 pipeline-model-extensions
+prometheus
 workflow-aggregator
 mailer
 git
@@ -81,6 +82,7 @@ pipeline-model-declarative-agent
 workflow-step-api
 pipeline-graph-analysis
 artifactory
+metrics
 blueocean-git-pipeline
 pipeline-model-api
 jenkins-design-language
@@ -108,5 +110,4 @@ build-timeout
 favorite
 blueocean-bitbucket-pipeline
 mapdb-api
-metrics
-prometheus
+mattermost
